@@ -1,5 +1,5 @@
 # 🚀 Portfolio Project – Saroja R V
-Business Development Executive | Direction Software LLP
+Business Development Executive |
 📧 vedasaro604@gmail.com | 🔗 github.com/Sarojavedarathinam
 
 ---

@@ -2,44 +2,69 @@
 
 ## Tools I Installed
 
-- Cursor IDE — AI-powered code editor, downloaded from https://cursor.com
-- Claude Code Extension — installed inside Cursor Extensions panel, by Anthropic
-- Codex Extension — installed inside Cursor Extensions panel, by OpenAI
-- Git — version control tool, downloaded from https://git-scm.com
-- GitHub Account — created a free public account at https://github.com
+I installed Cursor IDE which is an AI-powered code editor. I downloaded
+it from cursor.com. Inside Cursor, I installed two extensions — Claude
+Code by Anthropic and Codex by OpenAI. I also installed Git from
+git-scm.com so I could use terminal commands. I created a free GitHub
+account at github.com to store my project online.
 
 ## Steps I Completed
 
-1. Installed Cursor IDE on my Windows laptop from cursor.com
-2. Opened the Extensions panel in Cursor (Ctrl+Shift+X)
-3. Searched for and installed the Claude Code extension by Anthropic
-4. Searched for and installed the Codex extension by OpenAI
-5. Logged in to both extensions using my Anthropic and OpenAI accounts
-6. Created a free GitHub account and a new public repository named Portfolio-Project
-7. Installed Git from git-scm.com so I could use terminal commands
-8. Opened Cursor terminal and ran git clone to download the repository
-9. Opened the Portfolio-Project folder inside Cursor
-10. Edited this README.md file to document everything I did
-11. Saved the file and will push it to GitHub using git add, commit and push
+First I downloaded and installed Cursor IDE on my Windows laptop. Then I
+opened the Extensions panel inside Cursor using Ctrl+Shift+X and installed
+the Claude Code extension by Anthropic. After that I installed the Codex
+extension by OpenAI the same way and logged into both using my accounts.
+
+Next I created a GitHub account and made a new public repository called
+Portfolio-Project. I installed Git on my computer and then used the
+terminal inside Cursor to run the git clone command to download the
+repository to my Desktop. After that I opened the folder in Cursor,
+edited this README file to write down everything I did, and then pushed
+it to GitHub using git add, git commit and git push commands.
 
 ## Issues I Ran Into and How I Solved Them
 
-Issue 1: I accidentally opened the wrong application (showed Automations/Bugbot screen)
-Solution: Realised it was a different tool. Went directly to cursor.com and downloaded the correct Cursor IDE
+Issue 1: When I searched for Cursor I accidentally opened the wrong app.
+It showed a screen with Automations, Bugbot and New Agent which was
+not Cursor IDE at all.
+How I solved it: I searched online and found that the correct app had
+to be downloaded directly from cursor.com. I went there, downloaded
+the right Cursor IDE and installed it.
 
-Issue 2: I typed the $ sign in the terminal as part of the command
-Solution: Learned that $ is only a guide symbol and should never be typed — commands start directly with git
+Issue 2: When I tried to type the git clone command I also typed the
+$ sign at the beginning because I saw it in the guide.
+How I solved it: I looked it up and learned that the $ sign is only
+used in guides to show that something is a command. It should never
+actually be typed. The command should start directly with the word git.
 
-Issue 3: I typed "YourName" literally instead of my actual GitHub username
-Solution: Found my real username on github.com (top-right corner) and used that in the command
+Issue 3: I typed "YourName" literally in the git clone command instead
+of my real GitHub username and got a repository not found error.
+How I solved it: I went to github.com, found my real username in the
+top right corner of the page and used my actual username
+Sarojavedarathinam in the command. It worked after that.
 
-Issue 4: Got error "git is not recognized" when running git clone
-Solution: Installed Git from git-scm.com, restarted Cursor, and the command worked successfully
+Issue 4: When I ran the git clone command it said git is not recognized
+as a command.
+How I solved it: I found out that Git was not installed on my computer.
+I went to git-scm.com, downloaded and installed Git, then restarted
+Cursor. After that the command worked perfectly.
+
+Issue 5: When I tried to do git commit it said Author identity unknown
+and could not detect my email address.
+How I solved it: I ran two commands to tell Git my name and email —
+git config --global user.email and git config --global user.name.
+After setting these the commit worked successfully.
+
+Issue 6: When I ran git push it was rejected and said the remote
+contains work that I do not have locally.
+How I solved it: I searched for the error message and found that I
+needed to run git pull --rebase first to download the latest version
+from GitHub and then run git push again. That solved the issue and
+my README was uploaded to GitHub successfully.
 
 ## About Me
 
-Business Development Executive with 4+ years of experience in B2B lead generation,
-pre-sales support, digital marketing, and ERP solution prospecting.
-Currently working as Business Development Executive – Profiling Manager
-at Direction Software LLP, Mumbai.
+My name is Saroja R V. I have over 4 years of experience in business
+development, B2B lead generation, and pre-sales support. I currently
+work as a Business Development Executive at Direction Software LLP.
 GitHub: https://github.com/Sarojavedarathinam
